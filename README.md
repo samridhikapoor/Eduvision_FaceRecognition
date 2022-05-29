@@ -41,7 +41,7 @@ Agile Methodology was used for building this project. The best Agile practices a
 ## Live Demo 
 ***
 
-Demo Video: https://youtu.be/MywlX0E_WVs
+Demo Video: [https://youtu.be/MywlX0E_WVs](https://youtu.be/XBQSv4InpDw)
 
 
 ## Screenshots
