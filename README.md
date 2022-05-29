@@ -3,8 +3,8 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Live Demo](#live-demo)
-3. [Technologies](#technologies)
-4. [Installation](#installation)
+3. [Special configuration setting(s) to be followed at the time of installation of the project](#installation)
+4. [Technologies](#technologies)
 5. [Features](#features)
 ### General Info
 ***
@@ -42,6 +42,42 @@ Agile Methodology was used for building this project. The best Agile practices a
 ***
 
 Demo Video: [https://youtu.be/MywlX0E_WVs](https://youtu.be/XBQSv4InpDw)
+
+## Special configuration setting(s) to be followed at the time of installation of the project
+***
+1. A little intro about the installation. 
+```
+$ git clone https://github.com/Riyadevvarshney11/video-call-webapp.git
+$ pip install -r requirements.txt
+```
+2. In order to run the entire project (Flask Application), Run the file main python file named : "myapp.py" that is present in the root directory of the project uploaded on GitHub. 
+```
+$ python myapp.py
+```
+3. For opening the Log-Me-In Facial Recognition Attendance system use folllowing login credentials:
+
+> Username: s@gmail.com
+
+> Password: 12345
+
+4. I have created the project database in MySQL and hosted the same on Azure. I have made it publicly accessible. In case there is any issue in accessing the database, the following credentials may please be used:
+```
+user="engage2022"
+password="Useme@123"
+host="engage2022.mysql.database.azure.com"
+port=3306
+database="face_recognizer"
+ssl_disabled=True
+```
+
+5. I was facing difficulty in installing the Package named : "dlib". The version used in the project can be downloaded from the following link:
+
+[Install Dlib From here](https://github.com/datamagic2020/Install-dlib/raw/main/dlib-19.22.99-cp310-cp310-win_amd64.whl)
+
+After xthe (.whl)file is downloaded, search for the path of the file in your local computer (In my case, it was downloaded in the "Downloads" folder). Then run the below command in the terminal to install dlib library. This version of dlib is compatible with the python version(3.10.4) that I have used in my project. NOTE: The path used in the snippet below is w.r.t. my local system. Kindly make the changes and add the path of the dlib library w.r.t. your system.
+```
+pip install "C:\Users\ektak\Downloads\C:\Users\ektak\Downloads\dlib-19.22.99-cp310-cp310-win_amd64.whl"
+```
 
 
 ## Screenshots
