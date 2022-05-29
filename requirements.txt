@@ -1,0 +1,15 @@
+# python version used is python 3.10.4
+# I was facing difficulty in installing the Package named : "dlib". For the installation of dlib, follow the steps in README:
+tensorflow
+opencv-python
+covid
+newsapi-python
+Flask
+mysql-connector-python
+scipy
+matplotlib
+pandas
+SQLAlchemy
+pillow==9.0.1
+# python==3.10.4
+# dlib==19.22.1
