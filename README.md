@@ -125,6 +125,11 @@ ssl_disabled=True
 
 [Install Dlib From here](https://github.com/datamagic2020/Install-dlib/raw/main/dlib-19.22.99-cp310-cp310-win_amd64.whl)
 
+After xthe (.whl)file is downloaded, search for the path of the file in your local computer (In my case, it was downloaded in the "Downloads" folder). Then run the below command in the terminal to install dlib library. This version of dlib is compatible with the python version(3.10.4) that I have used in my project.
+```
+pip install "C:\Users\ektak\Downloads\C:\Users\ektak\Downloads"
+```
+
 
 
 ## Features
