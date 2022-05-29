@@ -3,7 +3,7 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Live Demo](#live-demo)
-3. [Special configuration setting(s) to be followed at the time of installation of the project](#special-configuration-setting(s)-to-be-followed-at-the-time-of-installation-of-the-project)
+3. [Special configuration setting(s) to be followed at the time of installation of the project](#special-configuration-settings-to-be-followed-at-the-time-of-installation-of-the-project)
 4. [Technologies](#technologies)
 5. [Features](#features)
 ### General Info
