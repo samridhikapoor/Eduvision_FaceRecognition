@@ -47,14 +47,14 @@ Demo Video: [https://youtu.be/MywlX0E_WVs](https://youtu.be/XBQSv4InpDw)
 ***
 1. A little intro about the installation. 
 ```
-$ git clone https://github.com/Riyadevvarshney11/video-call-webapp.git
+$ git clone https://github.com/samridhikapoor/Eduvision_FaceRecognition
 $ pip install -r requirements.txt
 ```
 2. In order to run the entire project (Flask Application), Run the file main python file named : "myapp.py" that is present in the root directory of the project uploaded on GitHub. 
 ```
 $ python myapp.py
 ```
-3. For opening the Log-Me-In Facial Recognition Attendance system use folllowing login credentials:
+3. For opening the Log-Me-In Facial Recognition Attendance system use following login credentials:
 
 > Username: s@gmail.com
 
@@ -74,7 +74,7 @@ ssl_disabled=True
 
 [Download Dlib From here](https://github.com/datamagic2020/Install-dlib/raw/main/dlib-19.22.99-cp310-cp310-win_amd64.whl)
 
-After xthe (.whl)file is downloaded, search for the path of the file in your local computer (In my case, it was downloaded in the "Downloads" folder). Then run the below command in the terminal to install dlib library. This version of dlib is compatible with the python version(3.10.4) that I have used in my project. NOTE: The path used in the snippet below is w.r.t. my local system. Kindly make the changes and add the path of the dlib library w.r.t. your system.
+After the (.whl) file is downloaded, search for the path of the file in your local computer (In my case, it was downloaded in the "Downloads" folder). Then run the below command in the terminal to install dlib library. This version of dlib is compatible with the python version(3.10.4) that I have used in my project. NOTE: The path used in the snippet below is w.r.t. my local system. Kindly make the changes and add the path of the dlib library w.r.t. your system.
 ```
 pip install "C:\Users\ektak\Downloads\C:\Users\ektak\Downloads\dlib-19.22.99-cp310-cp310-win_amd64.whl"
 ```
