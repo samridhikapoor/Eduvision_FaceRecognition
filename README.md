@@ -121,6 +121,11 @@ database="face_recognizer"
 ssl_disabled=True
 ```
 
+5. I was facing difficulty in installing the Package named : "dlib". The version used in the project can be downloaded from the following link:
+
+[Install Dlib From here](https://github.com/datamagic2020/Install-dlib/raw/main/dlib-19.22.99-cp310-cp310-win_amd64.whl)
+
+
 
 ## Features
 ***
