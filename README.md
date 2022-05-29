@@ -82,6 +82,11 @@ A little intro about the installation.
 $ git clone https://github.com/Riyadevvarshney11/video-call-webapp.git
 $ pip install -r requirements.txt
 ```
+For running the Flask App:
+```
+$ python myapp.py
+```
+
 
 For opening the Log-Me-In Facial Recognition Attendance system use folllowing login credentials:
 
