@@ -94,6 +94,33 @@ For opening the Log-Me-In Facial Recognition Attendance system use folllowing lo
 
 > Password: 12345
 
+## Special configuration setting(s) to be followed at the time of installation of the project
+***
+1. A little intro about the installation. 
+```
+$ git clone https://github.com/Riyadevvarshney11/video-call-webapp.git
+$ pip install -r requirements.txt
+```
+2. In order to run the entire project (Flask Application), Run the file main python file named : "myapp.py" that is present in the root directory of the project uploaded on GitHub. 
+```
+$ python myapp.py
+```
+3. For opening the Log-Me-In Facial Recognition Attendance system use folllowing login credentials:
+
+> Username: s@gmail.com
+
+> Password: 12345
+
+4. I have created the project database in MySQL and hosted the same on Azure. I have made it publicly accessible. In case there is any issue in accessing the database, the following credentials may please be used:
+```
+user="engage2022"
+password="Useme@123"
+host="engage2022.mysql.database.azure.com"
+port=3306
+database="face_recognizer"
+ssl_disabled=True
+```
+
 
 ## Features
 ***
